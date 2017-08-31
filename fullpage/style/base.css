@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+*, ::before, ::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body, dt, dd, dl, h1, h2, h3, h4, h5, h6, form, p, input, select, textarea,
+a, em, img, strong, b, u, i, fieldset, label, legend, table, td, caption, tbody,
+tfoot, thead, tr, th, article, aside, canvas, figure, figcaption, footer, header,
+hgroup, nav, section, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+}
+ul, ol, li {
+	list-style: none;
+}
+img {
+	border: 0 none;
+	vertical-align: middle;
+}
+table, td {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input, select, textarea, button {
+	outline: none;
+}
+textarea {
+	resize: none;
+}
+a {
+	text-decoration: none;
+	color: #404040;
+}
+a:link, a:active, a:visited {
+	text-decoration: none;
+	color: #404040;
+}
+a:hover {
+	color: #ffa72a;
+	text-decoration: none;
+}
+
+::-moz-selection {
+color: #fff;
+background-color: #A97F48;
+}
+::selection {
+	color: #fff;
+	background-color: #A97F48;
+}
+.clearfix:after {
+	clear: both;
+	content: '';
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+.clear {
+	clear: both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+body {
+	font-size: 14px;
+	color: #404040;
+	background: #fff;
+	font-family: 微软雅黑,Arial;
+}
